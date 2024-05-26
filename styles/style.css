@@ -1,11 +1,25 @@
-body {
-    background-color: antiquewhite;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: black;
+html {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
-h1 {
-    font-size: 50px;
+body {
+    background-color: rgba(0, 0, 0, 0.868);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: whitesmoke;
+    margin: 0px;
+    padding: 0px;
+}
+
+.title {
+    font-size: 20px;
+    background-color: rgb(222, 194, 37);
+    margin-top: 0px;
+    padding: 4px 26px;
+}
+
+.header {
     text-align: center;
 }
 
@@ -28,8 +42,20 @@ p, ul, ol {
     font-size: 20px;
 }
 
-.recipes {
-    font-size: 30px;
-    margin-left: 565px;
+.rec-buttons a {
+    display: inline-block; /* Ensures the anchor takes up space around the button */
 }
 
+.rec-button {
+    font-size: 26px;
+    padding: 10px;
+    margin: 30px 13px;
+    background-color: rgb(222, 194, 37);
+    color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 0px;
+}
+
+#far-left {
+    margin-left: 26px;
+}
