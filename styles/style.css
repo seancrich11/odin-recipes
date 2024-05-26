@@ -44,16 +44,21 @@ p, ul, ol {
 
 .rec-buttons a {
     display: inline-block; /* Ensures the anchor takes up space around the button */
+    padding: 10px;
+    margin: 30px 13px;
+    background-color: rgb(222, 194, 37);
+    border: none;
 }
 
 .rec-button {
     font-size: 26px;
-    padding: 10px;
-    margin: 30px 13px;
+    height: fit-content;
+    width: fit-content;
     background-color: rgb(222, 194, 37);
     color: whitesmoke;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    border: 0px;
+    border: none;
+    cursor: pointer;
 }
 
 #far-left {
